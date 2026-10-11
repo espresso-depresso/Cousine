@@ -1,4 +1,4 @@
-export function ContactUs() {
+export default function ContactUs() {
 return (
     <div className="bg-[#faf9f6] text-[#3d1f1f] font-sans">
         <section className="relative bg-cover bg-center py-24 px-6 text-center text-white" style={{ backgroundImage: "url('http://cousine-v2.local/wp-content/uploads/2019/12/cooked-dish.jpg')" }}>
