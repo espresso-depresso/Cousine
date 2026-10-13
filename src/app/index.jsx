@@ -8,7 +8,7 @@ export default function Index() {
 
             <div className="entry-content clear">
             
-            <section className="relative min-h-[500px] flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url('http://cousine.local/wp-content/uploads/2026/07/1-scaled.png')` }}>
+            <section className="relative flex items-center justify-center bg-cover bg-center">
                 <div className="container mx-auto px-4 text-center z-10">
                 <div className="max-w-xl mx-auto space-y-4">
                     <h1 className="text-4xl md:text-6xl font-bold text-white font-serif">
@@ -20,7 +20,7 @@ export default function Index() {
                     <div className="pt-4">
                     <a 
                         href="#" 
-                        className="inline-block bg-[#d95f3a] hover:bg-[#b87d1e] text-white font-medium px-8 py-4 rounded-full transition-all transform hover:scale-105 shadow-lg"
+                        className="inline-block bg-[#d95f3a] hover:bg-[#b87d1e] m-2 text-white font-medium px-8 py-4 rounded-full transition-all transform hover:scale-105 shadow-lg"
                     >
                         OBTENER AHORA
                     </a>
@@ -31,14 +31,14 @@ export default function Index() {
 
             <section className="bg-[#e9bf6d] py-3 text-center overflow-hidden">
                 <h2 className="text-xl font-serif text-[#3d1f1f] tracking-wide whitespace-nowrap animate-pulse">
-                DELIVERY GRATIS &nbsp;&nbsp;&nbsp; DELIVERY GRATIS &nbsp;&nbsp;&nbsp; DELIVERY GRATIS
+                DELIVERY GRATIS &nbsp;&nbsp;&nbsp; DELIVERY GRATIS &nbsp;&nbsp;&nbsp; DELIVERY GRATIS&nbsp;&nbsp;&nbsp; DELIVERY GRATIS&nbsp;&nbsp;&nbsp; DELIVERY GRATIS &nbsp;&nbsp;&nbsp; DELIVERY GRATIS
                 </h2>
             </section>
 
             <section className="py-12 px-4 md:px-12 max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
                 <div>
-                    <h3 className="text-3xl font-serif text-[#3d1f1f]">Productos destacados</h3>
+                    <h3 className="text-3xl font-serif text-[#3d1f1f] text-justify">Productos destacados</h3>
                     <p className="text-gray-600 mt-1">Especias listas para transformar la sazón de tus recetas diarias</p>
                 </div>
                 <div>
